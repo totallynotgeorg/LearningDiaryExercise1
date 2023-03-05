@@ -32,7 +32,7 @@ fun generateSecretNumber(): String {
 }
 
 // takes the generated secret number and the given 'guess' and checks for correct digits and their position
-// returns and int pair which corresponds to the number of correct guessed digits and the correct number of positions
+// returns an int pair which corresponds to the number of correct guessed digits and the correct number of positions
 fun evaluateGuess(secretNumber: String, guess: String): Pair<Int, Int> {
     var correctDigits = 0
     var correctPositions = 0
